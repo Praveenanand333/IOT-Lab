@@ -1,4 +1,9 @@
-MOV R0,#40H
+;Set number in address 30h
+;hexadecimal output will be shown in 31h
+;example input : 12(set 0x12 at 0x30 address)
+;example output : 0c
+
+MOV R0,#30H
 MOV A,@R0
 MOV R1,A
 ANL A,#0F0H
