@@ -1,8 +1,8 @@
 //Arduino_qn_4
 
-const int buttonPin = 2;
-const int irSensorPin = A0;
-const int ledPin = 13;
+#define buttonPin 2
+#define irSensorPin A0
+#define ledPin 13
 
 void setup() {
   pinMode(buttonPin, INPUT);

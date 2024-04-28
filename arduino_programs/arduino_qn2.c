@@ -1,7 +1,7 @@
 //Arduino_qn_2
 
-const int lightSensorPin = A0;  // Analog pin to which light sensor is connected
-const int ledPin = 13;  // Digital pin to which LED is connected
+#define lightSensorPin A0  // Analog pin to which light sensor is connected
+#define ledPin 13  // Digital pin to which LED is connected
 
 int lightThreshold = 500;  // Predefined threshold light intensity value
 

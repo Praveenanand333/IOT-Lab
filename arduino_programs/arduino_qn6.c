@@ -1,8 +1,8 @@
 //Arduino_qn_6
 
-const int raindropSensorPin = A0;
-const int buzzerPin = 8;
-const int threshold = 500;
+#define raindropSensorPin A0
+#define buzzerPin 8
+#define threshold 500
 int sensorValue;
 
 void setup() {
