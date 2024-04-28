@@ -7,8 +7,6 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const long interval = 2000;
-
 float temperature;
 float humidity;
 
