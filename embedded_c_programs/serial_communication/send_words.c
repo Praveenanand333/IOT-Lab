@@ -27,10 +27,14 @@ void delay(unsigned int count){
 	}
 }
 
+char name[] = "karthik";	// Any declaration should be outside the main function
+
 void main(){
 	uart_init();
 	while(1){
-		send_string("Hello Guys!!!\n");
+		send_string("Hello ");
 		delay(1000);
+		send_string(name);
+		send_char('\n');
 	}
 }
