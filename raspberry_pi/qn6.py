@@ -16,7 +16,7 @@ def main():
     try:
         setup()
         while True:
-            if GPIO.input(RAIN_PIN) == GPIO.LOW:  # Raindrop detected
+            if GPIO.input(RAIN_PIN) == GPIO.HIGH:  # Raindrop detected
                 print("Raindrop detected: Buzzing the buzzer")
                 GPIO.output(BUZZER_PIN, GPIO.HIGH)
                 time.sleep(0.1)  # Buzz for 0.1 seconds

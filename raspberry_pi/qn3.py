@@ -19,7 +19,7 @@ def main():
             button_state = GPIO.input(BUTTON_PIN)
             
             # Check if button is pressed or sensor detected
-            if button_state == GPIO.LOW:  # Button pressed or sensor detected
+            if button_state == GPIO.HIGH:  # Button pressed or sensor detected
                 print("Button pressed or sensor detected: Turning LED ON")
                 GPIO.output(LED_PIN, GPIO.HIGH)
             else:  # Button released or sensor not detected
