@@ -33,5 +33,4 @@ void main(){
 		send_string("Hello Guys!!!\n");
 		delay(1000);
 	}
-	
 }
