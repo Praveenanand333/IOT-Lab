@@ -35,6 +35,6 @@ void main(){
 		send_string("Hello ");
 		delay(1000);
 		send_string(name);
-		send_char('\n');
+		send_string("\n");
 	}
 }
