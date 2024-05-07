@@ -57,8 +57,9 @@ void main() {
 			for(j=0;j<N;j++){
 				int_to_string(C[i][j],num_str);
 				send_string(num_str);
-				send_string("\n");
+				send_string("  ");
 				delay(1000);
 			}
+            send_string("\n");
 		}
 }
