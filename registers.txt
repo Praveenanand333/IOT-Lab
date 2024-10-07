@@ -1,4 +1,4 @@
-REGISTER  STRUCTURES:
+REGISTER  STRUCTURES::
 
 TMOD:  | G | C/T | M1 | M0 | G | C/T | M1 | M0 |
 
